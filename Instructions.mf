@@ -1,0 +1,51 @@
+I want you to build a web app called Mewakir.
+It should work like a simple version of Google Meet — people can create meetings, join them, and talk over video and audio in real time.
+
+The app should have two main parts:
+
+A backend that handles users, meetings, and live connections.
+
+A frontend website that people use to log in, start, or join a meeting.
+
+Here’s what I want it to do:
+
+When a user opens the site, they first type their name to continue.
+
+On the home screen, they can either create a new meeting or join an existing one using a meeting ID and password.
+
+When a meeting is created, the app should generate a random meeting ID and password.
+
+If two people join the same meeting, they should be able to see and hear each other using their cameras and microphones.
+
+The video should appear side-by-side, one for “you” and one for the “other person.”
+
+There should be buttons to mute/unmute and turn the camera on/off.
+
+It should feel simple, modern, and clean — similar to Google Meet’s design, but lightweight.
+
+The backend should:
+
+Keep a list of meetings (like a simple database).
+
+Allow creating and joining meetings.
+
+Handle real-time communication so browsers can exchange video and audio directly.
+
+Be reliable, secure, and easy to run locally.
+
+The frontend should:
+
+Use modern web tools and be responsive.
+
+Have three pages: login, home, and meeting.
+
+Use the browser’s camera and microphone safely and give clear messages if permissions are denied.
+
+Automatically connect to others in the same meeting so the video works right away.
+
+The goal is not fancy design or lots of features — just a working foundation where people can meet each other face-to-face through the browser.
+After that, we can add things like chat, screen sharing, and better user accounts later.
+
+
+
+React, GO and MONGODB
